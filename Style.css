@@ -1,0 +1,75 @@
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 241, 241);
+}
+
+.principal {
+    margin: 20px;
+    display: grid;
+    max-width:65%;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 15px;  /* arredonda a borda*/
+    grid-template-columns: 4fr 8fr;
+    background-color: white;
+}
+
+.secao1 {
+    background-color: #abab2680;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.secao2 {
+    padding: 20px;
+}
+
+
+#img{
+    width:350px;
+    height:auto;
+    border-radius: 15px;
+}
+
+.contato{
+    color: gray;
+}
+
+h3{
+    color:black;
+    text-decoration: underline;
+}
+
+.contato {
+    display: grid;
+    grid-template-columns: 6fr 6fr;  /* divide em dois*/
+}
+
+#profissao {
+    font-size: 20px;
+}
+
+.educacao {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+}
+
+.datas {
+    color:rgb(168, 165, 165);
+
+}
+
+.SubLi {
+    color: gray;
+    font-size: 15px;
+    float: left;
+}
+
+h1 {
+    text-decoration: underline;
+    text-decoration-color: #abab2680 ;
+}
